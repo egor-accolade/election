@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest **.test.ts"
+    "first": "jest first.test.ts",
+    "second": "jest second.test.ts",
+    "third": "jest third.test.ts",
+    "all": "jest *.test.ts"
   },
   "author": "",
   "license": "ISC",
