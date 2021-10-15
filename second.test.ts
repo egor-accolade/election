@@ -1,6 +1,6 @@
-import { calculateMostVotingAge } from "./election";
-import { voters } from "./voters";
+import {createVotersWithFullName} from "./election";
+import { voters, votersWithFullName } from "./voters";
 
-it("should compute most common voting age", function () {
-    expect(calculateMostVotingAge(voters)).toEqual({ age: 60, count: 7 });
+it("should produce voters with full names", function () {
+  expect(createVotersWithFullName(voters)).toEqual(votersWithFullName);
 });

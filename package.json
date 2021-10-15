@@ -7,7 +7,9 @@
     "first": "jest first.test.ts",
     "second": "jest second.test.ts",
     "third": "jest third.test.ts",
-    "all": "jest *.test.ts"
+    "fourth": "jest fourth.test.ts",
+    "fifth": "jest fifth.test.ts",
+    "all": "jest"
   },
   "author": "",
   "license": "ISC",
