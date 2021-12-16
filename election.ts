@@ -7,7 +7,6 @@ interface Voter {
   votedFor: string,
 }
 
-// approx. 3 min.
 export function filterFemaleVoters(voters: Voter[]): Voter[] {
   // Return only female voters
   return null;
@@ -15,7 +14,6 @@ export function filterFemaleVoters(voters: Voter[]): Voter[] {
 
 interface VoterWithFullName {}
 
-// approx. 7 min
 export function createVotersWithFullName(voters: Voter[]): VoterWithFullName[] {
   // same as Voter, but should have additional property of fullName, ex. John Doe
   return null;
@@ -23,7 +21,6 @@ export function createVotersWithFullName(voters: Voter[]): VoterWithFullName[] {
 
 interface ElectionResult {}
 
-// approx. 10 min
 export function calculateElectionWinner(voters: Voter[]): ElectionResult {
   // calculate election winner
   // return {
@@ -47,9 +44,7 @@ interface VotersByDecade {
   90: Voter[],
 }
 
-// approx. 15 min.
 export function chunkVotersByAgeGroup(voters: Voter[]): VotersByDecade {
-
   // chunk voters by age group, in each chunk they should be sorted from youngest to oldest
   const votersByDecade: VotersByDecade  = {
     '10': [],
@@ -68,7 +63,6 @@ export function chunkVotersByAgeGroup(voters: Voter[]): VotersByDecade {
 
 interface MostVotingAge {}
 
-// approx. 20 min
 export function calculateMostVotingAge(voters: Voter[]): MostVotingAge {
   // The age that voted the most
   // RETURN: { age: ??, count: ?? };
